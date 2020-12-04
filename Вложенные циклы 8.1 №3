@@ -1,0 +1,4 @@
+for i in range(4):
+for j in range(10):
+print(41+i*10+j,end=' ')
+print()
