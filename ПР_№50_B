@@ -1,0 +1,17 @@
+def H(a, d = 2, start = 0):
+   if a % d == 0:
+      a/=d
+      if start == 0:
+         start=1
+         print(d, "*", end = "")
+      else:
+         print(d, end = "")
+      d=2
+      H(a)
+   else:
+      if a > d:
+         d+=1
+         H(a,d)
+
+a=int(input("Введите натуральное число: "))
+H(a)
