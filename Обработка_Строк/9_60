@@ -1,0 +1,21 @@
+#9.60
+pred=input("Введите слово")
+prob=" "
+p=0
+for i in pred:
+    if i==prob:
+        p+=1
+print(p)
+
+#9.63    
+tex=input("Введите текст")
+pl="+"
+zv="*"
+p=0
+z=0
+for i in tex:
+    if i==pl:
+        p+=1
+    if i==zv:
+        z+=1
+print("Колличество + =", p, "Количество * =", z)     
